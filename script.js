@@ -19,4 +19,11 @@ function kirimData() {
         "\nAngkatan : " + angkatan +
         "\nTanggal : " + formattedTanggal
     );
+
+    document.getElementById("nama").value = "";
+    document.getElementById("nim").value = "";
+    document.getElementById("programming").checked = true; 
+    document.getElementById("alamat").value = "";
+    document.getElementById("angkatan").value = "2020"; 
+    document.getElementById("tanggal").value = "";
 }
